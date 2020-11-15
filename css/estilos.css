@@ -296,7 +296,7 @@ nav .dropdown-menu.show {
     max-width: 420px;
 }
 #btn-container {
-    margin: 10px auto 25px auto;
+    margin: 30px auto 25px auto;
     display: flex;
     justify-content: center;
 }

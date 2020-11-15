@@ -123,7 +123,11 @@ article {
 }
 
 .col-50 {
-  width: 60%;
+  width: 65%;
+}
+
+.col-30 {
+  width: 35%;
 }
 
 .spacer {
@@ -160,7 +164,7 @@ article {
   font-family: "Playfair Display", "Times Bold", Times, "Times New Roman Bold", "Times New Roman", serif;
   font-weight: 800 !important;
   margin-bottom: 20px;
-  font-size: 28px;
+  font-size: 23px;
   text-align: center;
   position: relative;
   bottom: 10px;
@@ -171,7 +175,7 @@ article {
 #articles-nav h3 em {
   font-size: 20px;
   position: relative;
-  bottom: 6px;
+  bottom: 1px;
 }
 
 #articles-nav a {
