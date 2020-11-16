@@ -41,7 +41,8 @@
 
   }
 
-  /* Works on Chrome/Edge/Safari *//*
+  /* Works on Chrome/Edge/Safari */
+  /*
   .accordions-container::-webkit-scrollbar {
     width: 12px;
   }
@@ -72,7 +73,8 @@
 
   }
 
-  /* Style the buttons that are used to open and close the accordion panel *//*
+  /* Style the buttons that are used to open and close the accordion panel */
+  /*
   .accordion {
     background-color: #eee;
     color: #444;
@@ -99,7 +101,9 @@
     overflow: hidden;
   }
 */
-
+.container-articles {
+  margin-top: 50px;
+}
 article {
   width: 100%;
   max-width: 1200px;
@@ -267,14 +271,65 @@ article {
 
 .eyebrow-h2+hr {
   border: 1px solid #4DA0B0;
-  margin: 20px 0 40px;
+  margin: 20px 0 10px;
   width: 50px;
 }
 
-.quote {
-  font-size: 2em;
-  font-family: 'Playfair Display';
-  font-weight: 900;
-  line-height: 1.25em;
-  color: #2b3738;
+.imagen-article {
+  position: relative;
+  margin-left: 10px;
+  width: 280px;
+  float: right;
+}
+
+@media screen and (max-width:1000px) {
+  .container {
+    max-width: 990px;
+  }
+  .column:first-child {
+    padding: 20px;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  #articles-nav h3, #articles-nav .inactive-h3 {
+    font-size: 1.3rem;
+  }
+  .imagen-article {
+    position: relative;
+    float: none;
+    margin-left: 0px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:700px) {
+  #articles-nav h3, #articles-nav .inactive-h3 {
+    font-size: 2rem;
+  }
+  .col-30 {
+    width: 100%;
+  }
+  .col-50 {
+    width: 100%;
+  }
+  .imagen-article {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  #articles-nav h3, #articles-nav .inactive-h3 {
+    font-size: 1.2rem;
+  }
+  .column:nth-child(2) {
+    position: relative;
+    background: #fff;
+    padding: 28px;
+    padding-left: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  }
 }

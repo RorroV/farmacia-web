@@ -128,8 +128,7 @@ header::before {
     border-color: #2d25a367;
 }
 
-.contenedor0 a:hover,
-p:hover {
+.contenedor0 a:hover {
     color: whitesmoke;
     text-decoration: none;
 }
