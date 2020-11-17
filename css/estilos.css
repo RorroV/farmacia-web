@@ -176,6 +176,7 @@ nav .collapse.show {
     border: 1px solid transparent;
     box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
     position: relative;
+    z-index: 102;
 }
 
 nav .dropdown-menu.show {
@@ -228,6 +229,10 @@ nav .dropdown-menu.show {
     box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
 }
 
+.articulo a:hover {
+    text-decoration: none;
+}
+
 .articulo>a>img {
     width: 90%;
     height: 200px;
@@ -238,6 +243,10 @@ nav .dropdown-menu.show {
     box-shadow: 0 8px 32px rgba(34, 153, 95, 0.46);
 }
 
+.ver-mas a:hover {
+    text-decoration: none;
+    color: white;
+}
 /* Results */
 
 .results {
