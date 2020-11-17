@@ -2,7 +2,7 @@
     height: auto;
     margin-top: 40px;
     margin-bottom: 20px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 10% 20px 10%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -15,12 +15,16 @@
 }
 
 .media img {
-    width: 40%;
+    width: 300px;
     padding: 20px;
 }
 
 .media-body {
     margin: 20px;
+}
+
+.container-fluid.portada {
+    max-width: 1200px;
 }
 
 @media screen and (max-width:600px) {
