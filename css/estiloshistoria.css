@@ -16,7 +16,9 @@
 
 .media img {
     width: 300px;
-    padding: 20px;
+    padding: 0px;
+    border: 3px solid rgba(212, 205, 205, 0.493);
+    border-radius: 5px;
 }
 
 .media-body {

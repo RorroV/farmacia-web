@@ -312,8 +312,8 @@ nav .dropdown-menu.show {
 /* PONETE UN BOTON COMO LA GENTE, HACEME EL FAVOR */
 .pedidoButton {
 	box-shadow: 0px 10px 14px -7px #36a617;
-	background:linear-gradient(to bottom, #44c767 5%, #52a824 100%);
-	background-color:#44c767;
+	background:linear-gradient(to bottom, #60a171c4 5%, #649948bb 100%);
+	background-color:#7faa8ade;
 	border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
